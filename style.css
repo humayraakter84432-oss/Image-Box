@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image-box {
+    width: 600px;          /* Fixed Width */
+    height: 350px;         /* Fixed Height */
+    margin: 50px auto;     /* Center the box */
+    border: 5px solid black;
+
+    background-image: url(../image/hill.jpg);
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 8px;
+}
